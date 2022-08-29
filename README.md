@@ -5,9 +5,9 @@ OurC is a simplified but slightly extended C language. It has five primitive dat
 Here is how a simple session with OurC looks like :
 // Suppose we ran an OurC executable on the command level ...
 
- Our-C running ... 
+ Our-C running ... // this is our output
   
-  > int x;
+  > int x; // this is our input
            
   Definition of x entered ...  
   
