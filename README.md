@@ -84,3 +84,26 @@ Here is how a simple session with OurC looks like :
   > Done();
   
   Our-C exited ...
+  
+  ================================================
+  
+  The OurC interpreter maintains an environment.  This environment is composed of zero or more "definitions".  A definition can be either the definition of a variable or the definition of a function.  The user enters the definitions directly.
+
+Apart from definitions, the user can also enter one C-statement at a time on the prompt level.  There are several "extra" system-supported functions, as listed below.
+
+  ListAllVariables();          // just the names of the (global) variables,  sorted (from smallest to greatest)
+  
+  ListAllFunctions();          // just the names of the (user-defined)  functions, sorted
+  
+  ListVariable(char name[]);   // the definition of a particular variable
+  
+  ListFunction(char name[]);   // the definition of a particular function
+  
+  Done();                      // exit the interpreter
+  
+  cout << ...                  // output from program
+  
+  cin >> ...                   // input into program
+
+A global variable may have a value, and the system can simply store this value "together with" the definition of the variable.  With a skillful arrangement, there can be no need for a separate call stack.  However, you will need a data structure that is capable of storing arbitrary types of data.
+
