@@ -73,11 +73,9 @@ Here is how a simple session with OurC looks like :
   
   > ListFunction("AddThree");
   
-  void AddThree( int & y )  
+  void AddThree( int & y ) {
   
-  {
-  
-  y = y + 3 ;
+   y = y + 3 ;
   
   }
   
