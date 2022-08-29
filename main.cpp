@@ -1,3 +1,5 @@
+// cin/cout
+// while loop still has bug
 
 # include <string.h>
 # include <map>
