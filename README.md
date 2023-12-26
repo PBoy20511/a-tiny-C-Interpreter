@@ -2,7 +2,13 @@
 # Our C Project Comprehensive Overview
 
 ## Introduction
-The Our C project represents an innovative approach to understanding programming language design and functionality. Developed as an academic project, it delves into the intricacies of language development, exploring both theoretical and practical aspects of programming language architecture.
+
+Recursive Descent Parsing is a compiler technique for analyzing and processing programming languages. It decomposes a language's grammar into smaller parts, parsing these components recursively to understand the syntax.
+
+Our project presents "Our C", a simplified subset of the C language, aimed at facilitating learning of fundamental programming concepts. Despite its simplicity, it maintains key features of C.
+
+The goal of this project is to develop an interpreter for "Our C" using C++ and Recursive Descent Parsing. This approach allows us to interpret "Our C" code effectively, providing a useful tool for educational purposes in programming.
+
 
 ## Our C Grammar
 ### Overview
